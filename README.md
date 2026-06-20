@@ -194,21 +194,6 @@ requests>=2.31.0
 - ChromaDB management
 - Embedding generation
 
-## 🎯 Key Features Explained
-
-### Retrieval-Augmented Generation (RAG)
-The chatbot retrieves relevant documents based on user queries and uses them to ground its responses, ensuring accuracy and traceability.
-
-### Multi-Service Architecture
-Separation of concerns with dedicated services for:
-- User interaction (Streamlit)
-- Document management (FastAPI)
-- Shared utilities and infrastructure
-
-### Persistent Storage
-- Chat history stored in database
-- Document embeddings persisted in ChromaDB
-- User session management
 
 ## 🔄 Workflow
 
@@ -242,37 +227,4 @@ Separation of concerns with dedicated services for:
 - `GET /documents` - List all documents
 - `DELETE /documents/{doc_id}` - Remove a document
 
-## 🤝 Contributing
 
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## 📄 License
-
-This project is provided as-is for educational and enterprise use.
-
-## 👤 Author
-
-**Rashil Kumar**
-
-- GitHub: [@RashilKumar513](https://github.com/RashilKumar513)
-- Project: [Enterprise_Level_Chatbot](https://github.com/RashilKumar513/Enterprise_Level_Chatbot)
-
-## 🙏 Acknowledgments
-
-- Built with FastAPI, Streamlit, and ChromaDB
-- Leverages Ollama for local LLM inference
-- Uses Sentence-Transformers for embeddings
-
-## 📞 Support
-
-For issues, questions, or suggestions, please open an issue on the GitHub repository.
-
----
-
-**Last Updated**: 2026-06-20
-
-Made with ❤️ for enterprise AI solutions
